@@ -2,12 +2,13 @@ package com.how2java.springboot.mapper;
 
 import java.util.List;
 
+
 import org.apache.ibatis.annotations.Mapper;
 
-import com.how2java.springboot.pojo.Category1;
+import com.how2java.springboot.pojo.CategoryMbts;
 
 @Mapper
-public interface Category2Mapper {
+public interface CategoryMbts2Mapper {
 
-	List<Category1> findAll();
+	List<CategoryMbts> findAll();
 }

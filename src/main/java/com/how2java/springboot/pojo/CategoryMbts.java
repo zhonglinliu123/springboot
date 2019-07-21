@@ -1,6 +1,6 @@
 package com.how2java.springboot.pojo;
 
-public class Category1 {
+public class CategoryMbts {
 
 	private int id;
 	
