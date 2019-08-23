@@ -3,8 +3,8 @@
     PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
     
-    <mapper namespace="com.how2java.springboot.mapper.Category2Mapper">
-    	<select id="findAll" resultType="Category1">
-    		select * from category_ limit 1
+    <mapper namespace="com.how2java.springboot.mapper.CategoryMbts2Mapper">
+    	<select id="findAll" resultType="CategoryMbts">
+    		select * from category_ 
     	</select>
     </mapper>
